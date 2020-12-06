@@ -1,0 +1,111 @@
+<html>
+<html lang="en-US">
+<head>
+    <title>FIESTA</title>
+    <link rel="icon" type="image/jpg" href="C:\Users\HP\Desktop\first\fiesta.jpg"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+    <div class="wrap">
+        <div class="left">
+          <span class="fiesta" style="font-size:40px;cursor:pointer;text-align: left" onclick="openNav()">&#9776; FIESTA</span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="event.html">Back to Home</a>
+            <br>
+            <a href="#">What's new? </a>
+            <br>
+            <a href="contact.php">Any issue? Contact us </a>
+            <br>
+            <a href="#">Subscribe to newsletter</a>
+          </div>
+        <div class="right">
+          <p id="tagline">Insight into the best to visit around</p>
+        </div>
+      </div>
+    <div class="wrap1">
+        <div class="right1">
+            <div class="login-form">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <h2 class="text-center">Sign in to post your event</h2>		
+                    <!--<div class="text-center social-btn">
+                        <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> Sign in with <b>Facebook</b></a>
+                        <a href="#" class="btn btn-info btn-block"><i class="fa fa-twitter"></i> Sign in with <b>Twitter</b></a>
+                        <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in with <b>Google</b></a>
+                    </div>-->
+            <div class="or-seperator"><i>or</i></div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                </div>
+            </div>        
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-block login-btn">Sign in</button>
+            </div>
+            <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                <a href="#" class="pull-right text-success">Forgot Password?</a>
+            </div>  
+            
+            </form>
+            <div class="hint-text small" style="color: white">Don't have an account? <button id="myBtn" class="text-success">Register Now!</button></div>
+            
+                
+                    <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                            
+                            <div class="modal-content">
+                                
+                            <span class="close">&times;</span>
+                            <div class="signup-form">
+                                <form action="/examples/actions/confirmation.php" method="post">
+                                    <h2>Register</h2>
+                                    <p class="hint-text">Create your account. It's free and only takes a minute.</p>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+                                            <div class="col-xs-6"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+                                        </div>        	
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+                                    </div>        
+                                    <div class="form-group">
+                                        <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+                                    </div>
+                                </form>
+                                <div class="text-center">Already have an account? <a href="file:///C:/Users/HP/Desktop/first/login.html" style="color: black">Sign in</a></div>
+                            </div>
+                            </div>
+                        
+                        
+  
+                        </div>
+        </div>
+    </div>
+<script src="login.js"></script>      
+</body>

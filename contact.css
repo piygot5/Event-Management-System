@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+	margin: 0;
+	background-image: url("back.jpg");
+}
+.wrap {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: -21px;
+  
+}
+
+.wrap1 {
+    width: 100%;
+    position: relative;
+    top: 13%;
+    height:100%;
+    background: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.left1 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0052cc;
+    height: 87%;
+    float: left;
+   
+
+}
+
+.right1 {
+    width: 65%;
+    margin: 0 auto;
+   
+    height: 87%;
+    float: right;
+    padding-right: 10px;
+
+}
+.left {
+    width: 50%;
+  margin: 0 auto;
+  background-color: #0052cc;
+  height: 100px;
+  float: left;
+  
+  }
+.right {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100px;
+    float: right;
+    
+}
+
+
+.fiesta {
+  padding-left: 45px;
+  margin-top: 20px;
+  display:inline-block;
+}
+
+  #tagline {
+    float:right;
+    padding-right: 200px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #0052cc;
+  top: 25%;
+  position: relative;
+}
+
+* {box-sizing:border-box}
+
+.sidenav {
+    height: 100%;
+    width:0 ;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0052cc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 30px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Playfair Display', serif;
+    
+    position: relative;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidenav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .sidenav a:hover:after { 
+    width: 20%; 
+    left: 3%; 
+  }
+
